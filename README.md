@@ -15,6 +15,6 @@ Download the data source and put into a folder on your local drive. You'll have 
 Put **run_analysis.R** in the folder of UCI HAR Dataset, then set it as your working directory using **setwd()** function in RStudio.
 Run source("run_analysis.R"), then it will generate a new file **tidy.txt** in your working directory.
 
-Notes
+##Notes
 Only variables containing Mean() & STD() are used. 
 Requires **plyr** and **data.table** packages.
